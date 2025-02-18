@@ -1,7 +1,9 @@
-// import loadEvent from './events/loadEvent.js';
-// import addItemEvent from './events/addItemEvent.js';
-// import clearAllEvent from './events/clearAllEvent.js';
+import data from "./data.js";
+import updatePokemon from "./components/updatePokemon.js";
+import searchPokemonEvent from "./events/searchPokemonEvent.js";
+import validateInputEvent from "./events/validateInputEvent.js";
 
-// loadEvent();
-// addItemEvent();
-// clearAllEvent();
+updatePokemon(data.pokemon);
+searchPokemonEvent();
+validateInputEvent();
+
