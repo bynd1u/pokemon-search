@@ -8,10 +8,29 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
         />
-        <title>Todo List</title>
+        <title>Pokemon Search</title>
     </head>
     <body>
-        <main></main>
+        <main>
+            <input type="text" id="search-input" placeholder="Search for a Pokemon"/>
+            <button id="search-button">Search</button>
+            <div id="image-container">
+                <img id="pokemon-image" src="placeholder.png" alt="Pokemon Image" />
+            </div>
+            <div id="stats-container">
+                <p id="pokemon-name">Name: <span id="pokemon-name-value">N/A</span></p>
+                <p id="pokemon-id">Id: <span id="pokemon-id-value">N/A</span></p>
+                <p id="weight">Weight: <span id="weight-value">N/A</span></p>
+                <p id="height">Height: <span id="height-value">N/A</span></p>
+                <p id="types">Types: <span id="types-value">N/A</span></p>
+                <p id="hp">HP: <span id="hp-value">N/A</span></p>
+                <p id="attack">Attack: <span id="attack-value">N/A</span></p>
+                <p id="defense">Defense: <span id="defense-value">N/A</span></p>
+                <p id="special-attack">Special Attack: <span id="special-attack-value">N/A</span></p>
+                <p id="special-defense">Special Defense: <span id="special-defense-value">N/A</span></p>
+                <p id="speed">Speed: <span id="speed-value">N/A</span></p>
+            </div>
+        </main>
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>
